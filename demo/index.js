@@ -9,7 +9,7 @@ var panUp = true;         // initial vertical scroll direction
 var shift = false;        // if the shift key is pressed
 var initMouse = [0, 0]    // initial cursor position
 var currMouse = [0, 0]    // current cursor position
-var focused = true;       // if the document has focus
+var focus = true;       // if the document has focus
 
 // Get a canvas of some sort, e.g. fullscreen or embedded in a site
 const canvas = createCanvas({
