@@ -13,22 +13,13 @@ page-home {
   }
   .info {
     position: absolute;
-    // width: 7px;
     bottom: 0;
-    // left: 0;
     margin: 20px;
     padding: 5px;
     pointer-events: auto;
     /* Previously set to none */
     background-color: rgba(0, 0, 0, 0.5)
   }
-  // .info2 {
-  //   position: absolute;
-  //   bottom: 0;
-  //   right: 0;
-  //   margin: 20px;
-  //   text-align: right;
-  // }
   .hr {
     width: 20px;
     height: 1px;
@@ -43,7 +34,6 @@ page-home {
     display: block;
     margin: 0;
     padding: 0;
-    /* vertical-align: middle; */
     color: white;
     font-size: 10px;
   }
@@ -88,13 +78,6 @@ page-home {
   .right {
     right: 0;
   }
-  // #spin,
-  // #tilt {
-  //   float: right;
-  // }
-  // input[type="checkbox"] {
-  //   float: right
-  // }
   .controls {
     margin-top: 5px;
   }
@@ -103,17 +86,6 @@ page-home {
     height: 40px;
     margin-right: 35px;
   } 
-  
-  // To be deleted
-  .display {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    margin: 20px;
-    display: block;
-    background: black;
-  }
   ul {
     list-style-type: none;
   }
